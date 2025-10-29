@@ -43,7 +43,7 @@ def organizar_dataset(json_positivo, json_negativo, quant, fold):
     }
     i=0
     
-    while(i<30):
+    while(i<50):
         retorno["reviews"].append(
             {
                 "review":reviews_test[i],
